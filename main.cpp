@@ -1,7 +1,16 @@
 #include <iostream>
-#include <random>
 using namespace std;
 
+int random (int N){
+    // in a range of 0 to N-1
+    return rand() % N;
+    /*
+    int lb = 20, ub = 100;
+    // This program will create some sequence of random
+    // numbers on every program run within range lb to ub
+    for (int i = 0; i < 5; i++) cout << (rand() % (ub - lb + 1)) + lb << " ";
+    */
+}
 
 int main(){
     char arr[8][8];
